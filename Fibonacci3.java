@@ -18,8 +18,6 @@ class FibonacciWordsConverter extends NumberConverter {
 }
 class NumberDigitsConverter extends NumberConverter {
     public String convertToWords(int number) {
-        // Implementation of converting numbers to digits
-        // For this example, let's just return the number as a string
         return String.valueOf(number);
     }
 }
